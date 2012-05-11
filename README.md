@@ -24,15 +24,16 @@ How ever, CodeIgniter is 'you type what you need' framework unlike CakePHP. It d
 
 CodeIgniter already provide the core libraries which can be extended at whim if you wish. Consult the documentation if you inclined so.
 
-By the way, the documentation is awesome too..!
+By the way, the [documentation is awesome](codeigniter.com/user_guide/database/index.html) too..!
 
-ps: Read more about MVC if you never heard of it. Important!
+ps: Read more about [MVC](http://codeigniter.com/user_guide/overview/mvc.html) if you never heard of it. Important!
 
 
 How To install CodeIgniter: A Primer
 ------------------------------------
 
 It is really easy to install CodeIgniter. Download the framework from [CodeIgniter main page](http://codeigniter.com) and extract it to your designated folder. Lets say you designated folder is "howframework", the folder structure will be like:
+
 	-www
 		|-howframework
 			|-system
@@ -42,5 +43,9 @@ It is really easy to install CodeIgniter. Download the framework from [CodeIgnit
 Thus the installation is done. Checkit by going to the page from your browser. It should display this friendly "welcome" page.
 
 
-How to use this Codes
---------------------- 
+How to use this Repo
+--------------------
+
+This repo contains Codeigniter with some example files in it to simulate the requirement stated above. Click and view the file you interested with and try to understand it. Comments are generously sprinkled to assist. Brief explaination will be provided afterwards.
+
+Now, the time to do the codes!
