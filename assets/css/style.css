@@ -1,0 +1,63 @@
+/*---------------------------------------------------
+    LESS Elements 0.6
+  ---------------------------------------------------
+    A set of useful LESS mixins by Dmitry Fadeyev
+    Special thanks for mixin suggestions to:
+      Kris Van Herzeele,
+      Benoit Adam,
+      Portenart Emile-Victor,
+      Ryan Faerman
+
+    More info at: http://lesselements.com
+-----------------------------------------------------*/
+body {
+  padding-top: 40px;
+}
+body header {
+  padding: 20px 0;
+  background: #333;
+  color: #aaa;
+  border-bottom: #000 solid 1px;
+}
+body header h1 {
+  color: #eee;
+}
+body #body #content ul {
+  list-style: none;
+  margin: 0;
+  padding: 30px 0;
+}
+body #body #content ul li {
+  margin-bottom: 20px;
+}
+body #body #content ul li h2 {
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+body #body #content ul li .meta {
+  margin-bottom: 10px;
+  font-size: 12px;
+  color: #777;
+}
+body #body #sidebar {
+  padding: 30px 0;
+}
+body footer {
+  background: #eee;
+  padding: 20px 0;
+}
+@media (max-width: 767px) {
+  body {
+    padding-top: 0;
+  }
+}
+@media (max-width: 979px) {
+  body {
+    padding-top: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  body {
+    padding-top: 0;
+  }
+}
