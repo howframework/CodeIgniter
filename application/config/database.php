@@ -49,9 +49,9 @@ $active_group = 'default';
 $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = '';
-$db['default']['password'] = '';
-$db['default']['database'] = '';
+$db['default']['username'] = 'root'; // self described: Your MySQL username, this one are developed locally so we can just use root as user. Please do not do this in the wild!
+$db['default']['password'] = 'root'; // also self described: Your MySQL user password. ME dev`ing in MAMP thus the default user is 'root' with password 'root'. Yeah, pretty bland but awesome nonetheless.
+$db['default']['database'] = 'howframework_CI'; // your database to be connected. 
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
