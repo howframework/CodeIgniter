@@ -7,8 +7,8 @@
 		<meta name="description" content="">
     	<meta name="author" content="">
 
-		<link href="css/bootstrap.css" rel="stylesheet">
-		<link href="css/style.css" rel="stylesheet">
+		<link href="<?php echo base_url()?>/assets/css/bootstrap.css" rel="stylesheet">
+		<link href="<?php echo base_url()?>/assets/css/style.css" rel="stylesheet">
 
 		<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 		<!--[if lt IE 9]>
@@ -107,6 +107,6 @@
 		</footer>
 		<!-- JS -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
+		<script src="<?php echo base_url()?>/assets/js/bootstrap.min.js"></script>
 	</body>
 </html>

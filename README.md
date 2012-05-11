@@ -49,3 +49,5 @@ How to use this Repo
 This repo contains Codeigniter with some example files in it to simulate the requirement stated above. Click and view the file you interested with and try to understand it. Comments are generously sprinkled to assist. Brief explaination will be provided afterwards.
 
 Now, the time to do the codes!
+
+Nope, not yet. Firstly need to config some stuff in CI (yah, we love CodeIgniter so much we give it nickname. Heck, CI is better than Honey or worse, Bieber....). By default CI doesn`t connect to any database and will have the "welcome" app as default app. So, the first step is to make a mysql table and config CI to be able to talk/connect with it. Create table in MySQL in your favourite tools (PHPMyAdmin for you) with the name
