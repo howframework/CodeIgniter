@@ -7,8 +7,8 @@
 		<meta name="description" content="">
     	<meta name="author" content="">
 
-		<link href="<?php echo base_url()?>/assets/css/bootstrap.css" rel="stylesheet">
-		<link href="<?php echo base_url()?>/assets/css/style.css" rel="stylesheet">
+		<link href="<?php echo base_url('css/bootstrap.css');?>" rel="stylesheet">
+		<link href="<?php echo base_url('css/style.css');?>" rel="stylesheet">
 
 		<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 		<!--[if lt IE 9]>
@@ -33,6 +33,14 @@
 							<li><a href="#contact">Contact</a></li>
 						</ul>
 					</div><!--/.nav-collapse -->
+					
+          <div class="btn-group pull-right">
+            <a class="btn" href="<?php echo site_url('login'); ?>">
+              <i class="icon-user"></i> Login
+              <span class="caret"></span>
+            </a>
+          </div>					
+					
 				</div>
 			</div>
 		</div>
@@ -107,6 +115,6 @@
 		</footer>
 		<!-- JS -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-		<script src="<?php echo base_url()?>/assets/js/bootstrap.min.js"></script>
+		<script src="<?php echo base_url('js/bootstrap.min.js');?>"></script>
 	</body>
 </html>
