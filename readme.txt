@@ -114,11 +114,13 @@ Three main controllers is created.
 
 - login
     index() - login form and handler
-	logout() - logout
-	register() - register form and handler
-	noaccess() - error message when not logged in
+    logout() - logout
+    register() - register form and handler
+    noaccess() - error message when not logged in
+
 - admin
     index() - default admin page
+
 - blog
     index() - main home page
 
