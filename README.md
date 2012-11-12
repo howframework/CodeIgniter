@@ -1,5 +1,7 @@
-CodeIgniter
+HowFramework CodeIgniter
 ===========
+
+This is a fork HowFramework for CodeIgniter. The objective is to demonstrate various frameworks when creating a web application.
 
 Simple Blog App with CodeIgniter
 
