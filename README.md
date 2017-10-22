@@ -26,7 +26,7 @@ CodeIgniter already provide the core libraries which can be extended at whim if 
 
 By the way, the [documentation is awesome](codeigniter.com/user_guide/database/index.html) too..!
 
-ps: Read more about [MVC](http://codeigniter.com/user_guide/overview/mvc.html) if you never heard of it. Important!
+ps: Read more about [MVC](http://codeigniter.com/user_guide/overview/mvc.html) if you never heard of it. Important!!
 
 
 How To install CodeIgniter: A Primer
